@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 400;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 100;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 100;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Thin Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 200;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 200;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial ExtraLight Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 300;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 300;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Light Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 500;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 500;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Medium Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 600;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial DemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 600;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial DemiBold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 700;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 700;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Bold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 800;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 800;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial ExtraBold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: normal;
+    font-weight: 900;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    font-style: italic;
+    font-weight: 900;
+    src: local('TT Firs Neue Trl'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Black Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trial Var Roman';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TT Firs Neue Trial Var Roman'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Var Roman.woff') format('woff');
+}
+@font-face {
+    font-family: 'TT Firs Neue Trial Var Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: local('TT Firs Neue Trial Var Italic'), url('https://fonts.cdnfonts.com/s/90571/TT Firs Neue Trial Var Italic.woff') format('woff');
+}
+
+

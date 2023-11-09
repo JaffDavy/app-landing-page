@@ -1,6 +1,16 @@
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+
+:root{
+  --custom-color-1: #ffff;
+  --custom-color-2: #181a1b;
+  --custom-color-3: #54ea54;
+  --custom-color-4: whitesmoke;
+}
+
 body {
   margin: 0 auto;
   font-size: 50%;
+  font-family: 'TT Firs Neue Trial Var Italic', sans-serif;
 }
 
 .header-line {
@@ -18,14 +28,14 @@ body {
 #header-line-sign-in {
   border: 1px;
   border-radius: 10px;
-  background-color: lime;
+  background-color: var(--custom-color-3);
   padding: 5px;
 }
 
-.black-background {
-  background-color: #181a1b;
+.hero {
+  background-color: var(--custom-color-2);
   border-radius: 10px;
-  color: #ffff;
+  color:var(--custom-color-1);
   margin: 10px;
   height: 40vh;
   width: 80%;
@@ -34,7 +44,7 @@ body {
   gap: 10px;
 }
 
-.text {
+.hero-text {
   width: 40vw;
 }
 
@@ -46,10 +56,10 @@ body {
 }
 
 #lime-green-button {
-  background-color: #54ea54;
-  color: #181a1b;
+  background-color: var(--custom-color-3);
+  color: var(--custom-color-2);
   border-radius: 10px;
-  padding: 5%;
+  padding-right:5px;
 }
 
 p {
@@ -61,26 +71,60 @@ p {
   gap: 10px;
 }
 
-.heading {
+.destinations-heading {
   margin: 10px;
 }
 
-.second-paragraph {
+.destinations-paragraph {
   display: flex;
   flex-direction: column;
   margin: 10px;
   font-size: 15px;
 }
 
+.pic {
+  height: 50vh;
+  width: 120%;
+  border-radius: 10px;
+  background-image: url("../images/student.gif.webp");
+}
+
 .second-pic {
   width: 80%;
-  margin: 20px;
   padding: 10px;
   align-items: center;
 }
 
+#try-it-now-button {
+  background-color: var(--custom-color-1);
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  width:30%;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+  opacity: 0.9;
+}
+
+.pictu {
+  height: 50vh;
+  width: 95%;
+  margin: 10px;
+  border-radius: 10px;
+  background-image: url("../images/work.webp");
+}
+
+.picture {
+  height: 50vh;
+  width: 95%;
+  margin: 10px;
+  border-radius: 10px;
+  background-image: url("../images/writers.webp");
+}
+
 .statment {
-  background-color: #54ea54;
+  background-color: var(--custom-color-3);
   text-align: center;
   border-radius: 10px;
   margin-left: 20%;
@@ -89,8 +133,8 @@ p {
   font-size: 10px;
 }
 
-.gray-background {
-  background-color: whitesmoke;
+.information {
+  background-color: var(--custom-color-4);
   padding: 20px;
 }
 
@@ -102,7 +146,7 @@ p {
 
 .first-bar {
   text-align: center;
-  background-color: #ffff;
+  background-color: var(--custom-color-1);
   font-size: medium;
   padding: 10px;
   margin-top: 10px;
@@ -117,11 +161,12 @@ p {
 }
 
 .help-for-designers {
-  background-color: #181a1b;
-  color: #ffff;
+  background-color: var(--custom-color-2);
+  color: var(--custom-color-1);
   border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
+  width: 100%;
 }
 
 .testimonials {
@@ -129,9 +174,9 @@ p {
 }
 
 .lime-green-div {
-  background-color: #54ea54;
-  margin-left: 22vw;
-  margin-right: 22vw;
+  background-color: var(--custom-color-3);
+  margin-left: 10vw;
+  margin-right: 10vw;
   border-radius: 10px;
   padding: 10px;
 }
@@ -152,26 +197,26 @@ p {
 
 .purple-div {
   background-color: #f08cf0;
-  margin-left: 22vw;
+  margin-left: 10vw;
   margin-top: 15px;
-  margin-right: 22vw;
+  margin-right: 10vw;
   border-radius: 10px;
   padding: 10px;
 }
 
 .skyblue-div {
   background-color: skyblue;
-  margin-left: 22vw;
+  margin-left: 10vw;
   margin-top: 15px;
-  margin-right: 22vw;
+  margin-right: 10vw;
   border-radius: 10px;
   padding: 10px;
 }
 
-.black-background2 {
+.footer {
   list-style: none;
-  background-color: black;
-  color: #ffff;
+  background-color: var(--custom-color-2);
+  color: var(--custom-color-1);
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
@@ -181,7 +226,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #181a1b;
+  background-color: var(--custom-color-2);
   border-radius: 5px;
   padding: 5px;
 }
@@ -192,9 +237,9 @@ p {
 }
 
 .second-part1 {
-  background-color: #54ea54;
+  background-color: var(--custom-color-2);
   border-radius: 5px;
-  color: #181a1b;
+  color: var(--custom-color-1);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -202,7 +247,7 @@ p {
 .second-part2 {
   background-color: #f08cf0;
   border-radius: 5px;
-  color: #181a1b;
+  color: var(--custom-color-2);
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -210,7 +255,7 @@ p {
 .second-part3 {
   background-color: gold;
   border-radius: 5px;
-  color: #181a1b;
+  color: var(--custom-color-2);
   padding-left: 5px;
   padding-right: 5px;
 }

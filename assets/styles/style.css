@@ -1,11 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
-
-/* :root{ */
-  /* --custom-color-1: #ffff; */
-  /* --custom-color-2: #181a1b; */
-  /* --custom-color-3: #54ea54; */
-  /* --custom-color-4: whitesmoke; */
-/* } */
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
 
 :root {
   --primary-font-color: #ffff;
@@ -18,7 +11,7 @@ body {
   margin: 0 auto;
   width: 100%;
   font-size: 50%;
-  font-family: 'TT Firs Neue Trial Var Italic', sans-serif;
+  font-family: "TT Firs Neue Trial Var Italic, sans-serif";
 }
 
 main {
@@ -47,7 +40,7 @@ main {
 .hero {
   background-color: var(--primary-background-color);
   border-radius: 30px;
-  color:var(--primary-font-color);
+  color: var(--primary-font-color);
   margin: 0 auto;
   height: 30vh;
   width: 85%;
@@ -72,7 +65,7 @@ main {
   background-color: var(--secondary-background-color);
   color: var(--secondary-font-color);
   border-radius: 10px;
-  padding-right:5px;
+  padding-right: 5px;
 }
 
 p {
@@ -107,7 +100,7 @@ p {
   border-radius: 10px;
   background-image: url("../images/student.gif.webp");
   background-size: cover;
-  background-attachment:inherit;
+  background-attachment: inherit;
 }
 
 .second-pic {
@@ -122,7 +115,7 @@ p {
   padding: 10px;
   border-radius: 15px;
   font-size: 15px;
-  width:30%;
+  width: 30%;
   margin-left: 10px;
   margin-top: 10px;
   position: absolute;

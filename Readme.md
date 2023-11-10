@@ -6,15 +6,15 @@ This is a project in which i was clonning a site advertiving a very strong AI te
 To open the page you need your mobile phone and you must be connected to the internet
 ## AI Ally web page
 [link](https://dribbble.com/shots/22834663-App-Landing-Page)
-## Built with 
+## Built with
 - HTML
 - CSS
 ## Clone project
-- To get a local copy up and running follow this steps 
-- Clone the repository using https://github.com/JaffDavy/app-landing-page/pull/1 using your terminal or command line
+- To get a local copy up and running follow this steps
+- Clone the repository using https://github.com/JaffDavy/app-landing-page/pull/1 using your terminal or command-line
 ## Live site
-https://github.com/JaffDavy/app-landing-page/pull/1
+[link]https://github.com/JaffDavy/app-landing-page/pull/1
 ## Author
 **Jaff Davy-Arnold**
-- GitHub:(https://github.com/JaffDavy)
-- X :(https://twitter.com/jaff_arnold)
+- GitHub: [link](https://github.com/JaffDavy)
+- X: [link] (https://twitter.com/jaff_arnold)

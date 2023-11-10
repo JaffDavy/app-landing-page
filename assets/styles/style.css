@@ -1,16 +1,28 @@
 @import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
 
-:root{
-  --custom-color-1: #ffff;
-  --custom-color-2: #181a1b;
-  --custom-color-3: #54ea54;
-  --custom-color-4: whitesmoke;
+/* :root{ */
+  /* --custom-color-1: #ffff; */
+  /* --custom-color-2: #181a1b; */
+  /* --custom-color-3: #54ea54; */
+  /* --custom-color-4: whitesmoke; */
+/* } */
+
+:root {
+  --primary-font-color: #ffff;
+  --secondary-font-color: #181a1b;
+  --primary-background-color: #181a1b;
+  --secondary-background-color: #54ea54;
 }
 
 body {
   margin: 0 auto;
+  width: 100%;
   font-size: 50%;
   font-family: 'TT Firs Neue Trial Var Italic', sans-serif;
+}
+
+main {
+  margin: 0 auto;
 }
 
 .header-line {
@@ -28,17 +40,17 @@ body {
 #header-line-sign-in {
   border: 1px;
   border-radius: 10px;
-  background-color: var(--custom-color-3);
+  background-color: var(--secondary-background-color);
   padding: 5px;
 }
 
 .hero {
-  background-color: var(--custom-color-2);
-  border-radius: 10px;
-  color:var(--custom-color-1);
-  margin: 10px;
-  height: 40vh;
-  width: 80%;
+  background-color: var(--primary-background-color);
+  border-radius: 30px;
+  color:var(--primary-font-color);
+  margin: 0 auto;
+  height: 30vh;
+  width: 85%;
   padding: 20px;
   display: flex;
   gap: 10px;
@@ -46,6 +58,7 @@ body {
 
 .hero-text {
   width: 40vw;
+  margin: 0  auto;
 }
 
 .black-background-text2 {
@@ -56,8 +69,8 @@ body {
 }
 
 #lime-green-button {
-  background-color: var(--custom-color-3);
-  color: var(--custom-color-2);
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-font-color);
   border-radius: 10px;
   padding-right:5px;
 }
@@ -69,6 +82,11 @@ p {
 .black-background-text3 {
   display: flex;
   gap: 10px;
+}
+
+.destinations {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .destinations-heading {
@@ -83,20 +101,24 @@ p {
 }
 
 .pic {
-  height: 50vh;
-  width: 120%;
+  height: 40vh;
+  width: 95%;
+  margin: 0 auto;
   border-radius: 10px;
   background-image: url("../images/student.gif.webp");
+  background-size: cover;
+  background-attachment:inherit;
 }
 
 .second-pic {
-  width: 80%;
+  width: 100%;
   padding: 10px;
   align-items: center;
+  margin: 0 auto;
 }
 
 #try-it-now-button {
-  background-color: var(--custom-color-1);
+  background-color: white;
   padding: 10px;
   border-radius: 15px;
   font-size: 15px;
@@ -110,9 +132,11 @@ p {
 .pictu {
   height: 50vh;
   width: 95%;
-  margin: 10px;
+  margin: 0 auto;
   border-radius: 10px;
   background-image: url("../images/work.webp");
+  background-size: cover;
+  background-attachment: inherit;
 }
 
 .picture {
@@ -121,10 +145,12 @@ p {
   margin: 10px;
   border-radius: 10px;
   background-image: url("../images/writers.webp");
+  background-size: cover;
+  background-attachment: inherit;
 }
 
 .statment {
-  background-color: var(--custom-color-3);
+  background-color: var(--secondary-background-color);
   text-align: center;
   border-radius: 10px;
   margin-left: 20%;
@@ -134,8 +160,9 @@ p {
 }
 
 .information {
-  background-color: var(--custom-color-4);
-  padding: 20px;
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 90%;
 }
 
 .search-section {
@@ -146,8 +173,9 @@ p {
 
 .first-bar {
   text-align: center;
-  background-color: var(--custom-color-1);
+  background-color: white;
   font-size: medium;
+  width: 85%;
   padding: 10px;
   margin-top: 10px;
   border-radius: 10px;
@@ -161,12 +189,12 @@ p {
 }
 
 .help-for-designers {
-  background-color: var(--custom-color-2);
-  color: var(--custom-color-1);
+  background-color: var(--primary-background-color);
+  color: var(--primary-font-color);
   border-radius: 10px;
-  margin-top: 10px;
+  margin: 0 auto;
   padding: 10px;
-  width: 100%;
+  width: 90%;
 }
 
 .testimonials {
@@ -174,11 +202,11 @@ p {
 }
 
 .lime-green-div {
-  background-color: var(--custom-color-3);
-  margin-left: 10vw;
-  margin-right: 10vw;
+  background-color: var(--secondary-background-color);
+  margin: 0 auto;
   border-radius: 10px;
   padding: 10px;
+  width: 90%;
 }
 
 .ave {
@@ -197,26 +225,24 @@ p {
 
 .purple-div {
   background-color: #f08cf0;
-  margin-left: 10vw;
-  margin-top: 15px;
-  margin-right: 10vw;
+  width: 90%;
+  margin: 0 auto;
   border-radius: 10px;
   padding: 10px;
 }
 
 .skyblue-div {
   background-color: skyblue;
-  margin-left: 10vw;
-  margin-top: 15px;
-  margin-right: 10vw;
+  margin: 0 auto;
+  width: 90%;
   border-radius: 10px;
   padding: 10px;
 }
 
 .footer {
   list-style: none;
-  background-color: var(--custom-color-2);
-  color: var(--custom-color-1);
+  background-color: black;
+  color: var(--primary-font-color);
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
@@ -226,7 +252,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: var(--custom-color-2);
+  background-color: var(--primary-background-color);
   border-radius: 5px;
   padding: 5px;
 }
@@ -237,9 +263,9 @@ p {
 }
 
 .second-part1 {
-  background-color: var(--custom-color-2);
+  background-color: var(--secondary-background-color);
   border-radius: 5px;
-  color: var(--custom-color-1);
+  color: var(--secondary-font-color);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -247,7 +273,7 @@ p {
 .second-part2 {
   background-color: #f08cf0;
   border-radius: 5px;
-  color: var(--custom-color-2);
+  color: var(--secondary-font-color);
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -255,7 +281,7 @@ p {
 .second-part3 {
   background-color: gold;
   border-radius: 5px;
-  color: var(--custom-color-2);
+  color: var(--secondary-font-color);
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -286,4 +312,40 @@ p {
   display: flex;
   justify-content: space-around;
   padding: 15px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.appstore {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.googleplay {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.store {
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.play {
+  font-size: 15px;
+  margin: 0 auto;
 }

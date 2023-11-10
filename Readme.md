@@ -7,8 +7,8 @@ To open the page you need your mobile phone and you must be connected to the int
 ## AI Ally web page
 [link](https://dribbble.com/shots/22834663-App-Landing-Page)
 ## Built with 
-- html
-- css
+- HTML
+- CSS
 ## Clone project
 - To get a local copy up and running follow this steps 
 - Clone the repository using https://github.com/JaffDavy/app-landing-page/pull/1 using your terminal or command line

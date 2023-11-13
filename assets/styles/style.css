@@ -1,0 +1,526 @@
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
+
+:root {
+  --primary-font-color: #ffff;
+  --secondary-font-color: #181a1b;
+  --primary-background-color: #181a1b;
+  --secondary-background-color: #54ea54;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 50%;
+  font-family: "TT Firs Neue Trial Var Italic", sans-serif;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.header-line {
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+  align-items: center;
+}
+
+.second-section {
+  display: flex;
+  gap: 10px;
+}
+
+#header-line-sign-in {
+  border: 1px;
+  border-radius: 10px;
+  background-color: var(--secondary-background-color);
+  padding: 5px;
+}
+
+.hero {
+  background-color: var(--primary-background-color);
+  border-radius: 30px;
+  color: var(--primary-font-color);
+  margin: 0 auto;
+  height: 30vh;
+  width: 85%;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.hero-text {
+  width: 40vw;
+  margin: 0  auto;
+}
+
+.black-background-text2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+#lime-green-button {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-font-color);
+  border-radius: 10px;
+  padding-right: 5px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.black-background-text3 {
+  display: flex;
+  gap: 10px;
+}
+
+.destinations {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.destinations-heading {
+  margin: 10px;
+}
+
+.destinations-paragraph {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.pic {
+  height: 50vh;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: url("../images/student.gif.webp");
+  background-size: cover;
+  background-attachment: inherit;
+}
+
+.second-pic {
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.try-it-now-button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+  opacity: 0.9;
+}
+
+.pictu {
+  height: 50vh;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: url("../images/work.webp");
+  background-size: cover;
+  background-attachment: inherit;
+}
+
+.picture {
+  height: 50vh;
+  width: 95%;
+  margin: 10px;
+  border-radius: 10px;
+  background-image: url("../images/writers.webp");
+  background-size: cover;
+  background-attachment: inherit;
+}
+
+.statment {
+  background-color: var(--secondary-background-color);
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.information {
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 90%;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-bar {
+  text-align: center;
+  background-color: white;
+  font-size: medium;
+  width: 85%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.secnd-bar {
+  display: flex;
+  align-items: center;
+}
+
+.help-for-designers {
+  background-color: var(--primary-background-color);
+  color: var(--primary-font-color);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 90%;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+.lime-green-div {
+  background-color: var(--secondary-background-color);
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+}
+
+.ave {
+  display: flex;
+}
+
+.aveva {
+  border-radius: 50px;
+}
+
+.line {
+  margin-left: 22vw;
+  margin-top: 15px;
+  margin-right: 22vw;
+}
+
+.purple-div {
+  background-color: #f08cf0;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.skyblue-div {
+  background-color: skyblue;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer {
+  list-style: none;
+  background-color: black;
+  color: var(--primary-font-color);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.line1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--primary-background-color);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.second-part {
+  display: flex;
+  gap: 10px;
+}
+
+.second-part1 {
+  background-color: var(--secondary-background-color);
+  border-radius: 5px;
+  color: var(--secondary-font-color);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.second-part2 {
+  background-color: #f08cf0;
+  border-radius: 5px;
+  color: var(--secondary-font-color);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.second-part3 {
+  background-color: gold;
+  border-radius: 5px;
+  color: var(--secondary-font-color);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 5px;
+  border-top: 1px solid gainsboro;
+}
+
+.third-part {
+  gap: 30px;
+  display: flex;
+}
+
+.end-line {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.fin {
+  color: gray;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.appstore {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.googleplay {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.store {
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.play {
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 80%;
+  }
+
+  .header-line {
+    font-size: 100%;
+  }
+
+  .hero {
+    height: 78vh;
+    background-color: #181a1b;
+    margin: 0 auto;
+    width: 93%;
+  }
+
+  .hero-text {
+    width: 70%;
+    padding: 10px;
+    margin: 40px;
+  }
+
+  .black-background-text {
+    width: 20vw;
+  }
+
+  .unl {
+    font-size: 250%;
+    width: 40vw;
+  }
+
+  .black-background-text2 {
+    padding: 30px;
+    gap: 20px;
+  }
+
+  #lime-green-button {
+    padding: 10px;
+    border-radius: 40px;
+  }
+
+  .black-background-text3 {
+    gap: 20px;
+  }
+
+  .num {
+    font-size: 150%;
+  }
+
+  .hero-pic {
+    display: flex;
+    justify-content: center;
+    height: 73vh;
+    width: 30vw;
+    padding: 50px;
+  }
+
+  .diff {
+    font-size: 250%;
+    padding: 20px;
+  }
+
+  .destinations-paragraph {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .para {
+    width: 30%;
+  }
+
+  .pictures {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second-pic {
+    width: auto;
+  }
+
+  .pic {
+    height: 40vh;
+  }
+
+  .third-pic {
+    width: auto;
+  }
+
+  .pictu {
+    height: 40vh;
+  }
+
+  .fourth-pic {
+    width: auto;
+  }
+
+  .picture {
+    height: 40vh;
+  }
+
+  .try-it-now-button {
+    width: 10%;
+  }
+
+  .information {
+    width: 100%;
+  }
+
+  .statment {
+    border-radius: 40px;
+    font-size: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .second-pictu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  #mage {
+    padding: 40px;
+  }
+
+  .sms {
+    padding: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonials {
+    padding-bottom: 30px;
+    font-size: 200%;
+  }
+
+  .help-for-designers {
+    width: 40vw;
+  }
+
+  .all {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .firs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .erd {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .line {
+    margin: 10px;
+    width: 40vh;
+    font-size: 20%;
+  }
+
+  .close {
+    display: flex;
+    gap: 50px;
+  }
+
+  .las {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+  }
+}

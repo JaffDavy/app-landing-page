@@ -94,7 +94,7 @@ p {
 }
 
 .pic {
-  height: 40vh;
+  height: 50vh;
   width: 95%;
   margin: 0 auto;
   border-radius: 10px;
@@ -341,4 +341,186 @@ p {
 .play {
   font-size: 15px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 80%;
+  }
+
+  .header-line {
+    font-size: 100%;
+  }
+
+  .hero {
+    height: 78vh;
+    background-color: #181a1b;
+    margin: 0 auto;
+    width: 93%;
+  }
+
+  .hero-text {
+    width: 70%;
+    padding: 10px;
+    margin: 40px;
+  }
+
+  .black-background-text {
+    width: 20vw;
+  }
+
+  .unl {
+    font-size: 250%;
+    width: 40vw;
+  }
+
+  .black-background-text2 {
+    padding: 30px;
+    gap: 20px;
+  }
+  
+  #lime-green-button {
+    padding: 10px;
+    border-radius: 40px;
+  }
+
+  .black-background-text3 {
+    gap: 20px;
+  }
+
+  .num {
+    font-size: 150%;
+  }
+  .hero-pic {
+    display: flex;
+    justify-content: center;
+    height: 73vh;
+    width: 30vw;
+    padding: 50px;
+  }
+
+  .diff {
+    font-size: 250%;
+    padding: 20px;
+  }
+
+  .destinations-paragraph {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .para {
+    width: 30%;
+  }
+
+  .pictures {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second-pic {
+    width: auto;
+  }
+
+  .pic {
+    height: 40vh;
+  }
+
+  .third-pic {
+    width: auto;
+  }
+
+  .pictu {
+    height: 40vh;
+  }
+
+  .fourth-pic {
+    width: auto;
+  }
+  
+  .picture {
+    height: 40vh;
+  }
+
+  #try-it-now-button {
+    width: 10%;
+  }
+
+  .information {
+    width: 100%;
+  }
+
+  .statment {
+    border-radius: 40px;
+    font-size: 100%;
+    /* width: 50%; */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .second-pictu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  #mage {
+    padding: 40px;
+  }
+
+  .sms {
+    padding: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonials {
+    padding-bottom: 30px;
+    font-size: 200%;
+  }
+
+  .help-for-designers {
+    width: 40vw;
+  }
+
+  .all {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .firs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .erd {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .line {
+  margin: 10px;
+  width: 40vh;
+  font-size: 20%;
+  }
+
+  .close {
+    display: flex;
+    gap: 50px;
+  }
+
+  .las {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+  }
 }
